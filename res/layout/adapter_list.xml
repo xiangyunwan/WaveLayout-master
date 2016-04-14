@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dance.wavelayout.WaveLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_list_item"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/a" />
+
+        <TextView
+            android:id="@+id/text"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#aa0000ff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天王盖地虎" />
+    </LinearLayout>
+
+</com.dance.wavelayout.WaveLayout>
